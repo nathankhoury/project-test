@@ -1,5 +1,6 @@
 import { Image } from "expo-image"; // https://docs.expo.dev/versions/latest/sdk/image/#imagesource
 import { StyleSheet, Text, View } from "react-native";
+import Note from "./components/note";
 
 export default function Index() {
   return (
@@ -12,10 +13,7 @@ export default function Index() {
           style={styles.image}
           source={require("../assets/BFMN_lib/Staves/Stave_lines_1_system_large.png")}
         />
-        <Image
-          style={styles.note}
-          source={require("../assets/BFMN_lib/Notes/3_Quarter_Note_-_Crotchet/Stems_up/Quarter_Crotchet.png")}
-        />
+        <Note/>
       </View>
     </View>
   );

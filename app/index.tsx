@@ -4,14 +4,21 @@ import Note from "./components/note";
 
   /*
   START HERE:
+
+  To run: navigate to root directory and run "npm start" and scan QR code
+
   I tried to leave many loose comments to keep the code organized for interpretation!
   You can try changing the "lineHeight" constant as the parameter to the Note componentto move the note up and down on the staff.
   
-  ----------------------------- line 5
-  ----------------------------- line 4
-  ----------------------------- line 3
-  ----------------------------- line 2
-  ----------------------------- line 1
+  ---X------------------------- line 5
+  ---X------------------------- line 4
+  ---X------------------------- line 3
+  ---X------------------------- line 2
+  ---X------------------------- line 1
+     ^ the note should be appearing here horizontally right now, since there is no good implementation
+     for horizontal positioning yet, but you can try modifying the "xPos={mobileXOffset}" line to manually
+     move the note left/right
+
 
   navigate from here (index.tsx) to ./components/note.tsx to see the note implementation.
   Components in React Natives are the substitutes for classes in OOP languages.
